@@ -46,6 +46,19 @@ class ColorSwatchCollectionViewController: UICollectionViewController, ColorSwat
     }
   }
   
+  override func viewWillLayoutSubviews() {
+    super.viewWillLayoutSubviews()
+    if let flowLayout = collectionViewLayout as? UICollectionViewFlowLayout {
+      let minDimesion = min(CGRectGetHeight(view.bounds), CGRectGetWidth(view.bounds))
+      let newItemSize = CGSize(width: minDimesion, height: minDimesion)
+      
+      if flowLayout.itemSize != newItemSize {
+        flowLayout.itemSize = newItemSize
+        flowLayout.invalidateLayout()
+      }
+    }
+  }
+  
   // #pragma mark UICollectionViewDataSource
   override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
     return 1

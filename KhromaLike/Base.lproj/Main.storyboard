@@ -140,6 +140,14 @@
                         <outletCollection property="tallLayoutConstraints" destination="8Rf-80-5yG" collectionClass="NSMutableArray" id="HTc-aH-zyx"/>
                         <outletCollection property="tallLayoutConstraints" destination="x3A-Ko-eTj" collectionClass="NSMutableArray" id="36I-Ev-dz3"/>
                         <outletCollection property="tallLayoutConstraints" destination="RbG-Hg-dYN" collectionClass="NSMutableArray" id="eAc-Pk-eKY"/>
+                        <outletCollection property="wideLayoutConstraints" destination="Nni-A4-PEu" collectionClass="NSMutableArray" id="7KY-OA-CPO"/>
+                        <outletCollection property="wideLayoutConstraints" destination="TbC-Z1-KG6" collectionClass="NSMutableArray" id="QGS-7w-leK"/>
+                        <outletCollection property="wideLayoutConstraints" destination="llf-4W-YxM" collectionClass="NSMutableArray" id="wNS-Hv-Nbn"/>
+                        <outletCollection property="wideLayoutConstraints" destination="BA5-FU-AZ0" collectionClass="NSMutableArray" id="eYf-WR-Sfc"/>
+                        <outletCollection property="wideLayoutConstraints" destination="KEu-IV-W7J" collectionClass="NSMutableArray" id="3lx-aN-cv2"/>
+                        <outletCollection property="wideLayoutConstraints" destination="x3A-Ko-eTj" collectionClass="NSMutableArray" id="G9t-cD-eSm"/>
+                        <outletCollection property="wideLayoutConstraints" destination="RbG-Hg-dYN" collectionClass="NSMutableArray" id="gcR-Qy-zE5"/>
+                        <outletCollection property="wideLayoutConstraints" destination="d07-v1-eKe" collectionClass="NSMutableArray" id="hYu-gf-4Kd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -160,18 +168,30 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DEO-e4-m2j" userLabel="swatch1">
                                 <rect key="frame" x="0.0" y="337" width="150" height="112.5"/>
                                 <color key="backgroundColor" red="0.79655653510000002" green="1" blue="0.53338526100000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="299" width="112.5" height="100"/>
+                                </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f3e-iD-Szg" userLabel="swatch2">
                                 <rect key="frame" x="150" y="337" width="150" height="112.5"/>
                                 <color key="backgroundColor" red="1" green="0.29934685170000003" blue="0.6203950641" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="112" y="299" width="112.5" height="100"/>
+                                </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="huK-u2-fOx" userLabel="swatch3">
                                 <rect key="frame" x="300" y="337" width="150" height="112.5"/>
                                 <color key="backgroundColor" red="0.316555319" green="0.73633128039999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="225" y="299" width="112.5" height="100"/>
+                                </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LWR-0E-QR3" userLabel="swatch4">
                                 <rect key="frame" x="450" y="337" width="150" height="112.5"/>
                                 <color key="backgroundColor" red="1" green="0.86195106580000003" blue="0.15694230179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="337" y="299" width="112.5" height="100"/>
+                                </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kEB-tw-dqs">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="337.5"/>

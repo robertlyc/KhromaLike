@@ -24,6 +24,8 @@ import UIKit
 
 class ViewController: UIViewController, ColorSwatchSelectionDelegate {
                             
+  @IBOutlet var tallLayoutConstraints: [NSLayoutConstraint]!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.

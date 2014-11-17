@@ -60,7 +60,7 @@ class ViewController: UIViewController, ColorSwatchSelectionDelegate {
     
     coordinator.animateAlongsideTransition({
       _ in
-    NSLayoutConstraint.deactivateConstraints(constraintsToUninstall)
+      NSLayoutConstraint.deactivateConstraints(constraintsToUninstall)
       NSLayoutConstraint.activateConstraints(constraintsToInstall)
       self.view.layoutIfNeeded()
     }, completion: nil)

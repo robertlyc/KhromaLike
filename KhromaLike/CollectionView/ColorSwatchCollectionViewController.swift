@@ -94,9 +94,8 @@ class ColorSwatchCollectionViewController: UICollectionViewController, ColorSwat
   }
   
   // UIViewController
-  override func willTransitionToTraitCollection(newCollection: UITraitCollection, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
-    super.willTransitionToTraitCollection(newCollection, withTransitionCoordinator: coordinator)
-    
+  override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
+    super.viewWillTransitionToSize(size, withTransitionCoordinator: coordinator)
     let targetTForm = coordinator.targetTransform()
     let inverseTForm = CGAffineTransformInvert(targetTForm)
     

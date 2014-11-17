@@ -65,6 +65,5 @@ class ViewController: UIViewController, ColorSwatchSelectionDelegate {
       self.view.layoutIfNeeded()
     }, completion: nil)
   }
-
 }
 
